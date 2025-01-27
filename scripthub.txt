@@ -665,4 +665,4 @@ local Button = Tab:CreateButton({
 local Tab = Window:CreateTab("creator", 4483362458) -- Title, Image
 
 
-local Label = Tab:CreateLabel("CREATOR:nowhudhejeir (display nickname goose_happynew)", 4483362458, Color3.fromRGB(0, 0, 0), false) -- Title, Icon, Color, IgnoreTheme
+local Label = Tab:CreateLabel("CREATOR:nowhudhejeir (display nickname best)", 4483362458, Color3.fromRGB(0, 0, 0), false) -- Title, Icon, Color, IgnoreTheme
