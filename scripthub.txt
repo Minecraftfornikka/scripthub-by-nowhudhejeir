@@ -324,6 +324,13 @@ local Button = Tab:CreateButton({
 local Section = Tab:CreateSection("Muscle legends")
 
 
+local Button = Tab:CreateButton({
+    Name = "beamed v2, (benisbest) key",
+    Callback = function()
+ loadstring(game:HttpGet("https://raw.githubusercontent.com/ben1x1x1x1x/V2/refs/heads/main/BeamedV2FreeLoader"))()
+    end,    
+})
+
 
 local Button = Tab:CreateButton({
     Name = "speed hub x",
