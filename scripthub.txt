@@ -66,6 +66,23 @@ Name = <string> - The name of the section.
 
 
 local Button = Tab:CreateButton({
+    Name = "GhAzor.lua",
+    Callback = function()
+   --[[
+	WARNING: Heads up! This script has not been verified by ScriptBlox. Use at your own risk!
+]]
+--[[
+
+_G.BlackListedOnJoiningChildrens = {"john_doe”,“random_guy”}
+
+]]
+
+loadstring(game:HttpGet(("https://raw.githubusercontent.com/WebsMoment/Azor.lua/refs/heads/main/StupidMoment.lua"),true))()
+    end,
+})
+
+
+local Button = Tab:CreateButton({
    Name = "sc3-var (private script)",
    Callback = function()
  --[[
