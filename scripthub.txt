@@ -1,7 +1,7 @@
- -- [[
-key its "key".
-]]
-local Rayfield = loadstring(game:HttpGet("https://sirius.menu/rayfield"))()
+ -- key its "key"
+
+
+local Rayfield = loadstring(game:HttpGet('https://sirius.menu/rayfield'))()
 
 
 local Window = Rayfield:CreateWindow({
