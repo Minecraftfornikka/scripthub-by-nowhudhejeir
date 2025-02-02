@@ -1,4 +1,4 @@
-local Rayfield = loadstring(game:HttpGet('https://sirius.menu/rayfield'))()
+local Rayfield = loadstring(game:HttpGet("https://sirius.menu/rayfield"))()
 
 
 local Window = Rayfield:CreateWindow({
@@ -63,7 +63,7 @@ Name = <string> - The name of the section.
 
 
 local Button = Tab:CreateButton({
-   Name = "sc3-vaр (private script)",
+   Name = "sc3-vat (private script)",
    Callback = function()
    --[[
     YOU ARE WARRANTED UNLIMITED ACCESS TO THIS SCRIPT UNTIL KAH GETS DISCONTINUED OR CLOSED IF YOU ARE WHITELISTED
