@@ -1,11 +1,14 @@
-local success, ArrayField = pcall(function()
-    return load(game:HttpGet('https://raw.githubusercontent.com/UI-Interface/ArrayField/main/Source.lua'))()
+local success, err = pcall(function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/UI-Interface/ArrayField/main/Source.lua'))()
 end)
+if not success then
+    warn("Ошибка при загрузке скрипта: " .. err)
+end
+
 
 if not success then
-    warn("Ошибка при загрузке ArrayField: " .. ArrayField)
-else
-    -- Здесь можно работать с ArrayField
+    warn("Ошибка при загрузке ArrayField: " .. tostring(ArrayField))
+    return -- или handle error accordingly
 end
 
 
