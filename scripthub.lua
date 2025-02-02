@@ -70,15 +70,6 @@ Name = <string> - The name of the section.
 
 
 local Button = Tab:CreateButton({
-    Name = "GhAzor.lua",
-    Interact = 'Click',
-   Callback = function()
- loadstring(game:HttpGet(("https://raw.githubusercontent.com/WebsMoment/Azor.lua/refs/heads/main/StupidMoment.lua"),true))()
-    end,
-})
-
-
-local Button = Tab:CreateButton({
    Name = "sc3-var (private script)",
    Interact = 'Click',
    Callback = function()
