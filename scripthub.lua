@@ -1,16 +1,4 @@
-local success, err = pcall(function()
-    loadstring(game:HttpGet('https://raw.githubusercontent.com/UI-Interface/ArrayField/main/Source.lua'))()
-end)
-if not success then
-    warn("Ошибка при загрузке скрипта: " .. err)
-end
-
-
-if not success then
-    warn("Ошибка при загрузке ArrayField: " .. tostring(ArrayField))
-    return -- или handle error accordingly
-end
-
+loadstring(game:HttpGet('https://raw.githubusercontent.com/UI-Interface/ArrayField/main/Source.lua'))()
 
 local Window = ArrayField:CreateWindow({
    Name = "its scripthub, enjoy!",
