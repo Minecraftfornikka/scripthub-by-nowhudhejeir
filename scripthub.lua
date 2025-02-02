@@ -1,4 +1,13 @@
-local ArrayField = loadstring(game:HttpGet('https://raw.githubusercontent.com/UI-Interface/ArrayField/main/Source.lua'))()
+local success, ArrayField = pcall(function()
+    return load(game:HttpGet('https://raw.githubusercontent.com/UI-Interface/ArrayField/main/Source.lua'))()
+end)
+
+if not success then
+    warn("Ошибка при загрузке ArrayField: " .. ArrayField)
+else
+    -- Здесь можно работать с ArrayField
+end
+
 
 local Window = ArrayField:CreateWindow({
    Name = "its scripthub, enjoy!",
