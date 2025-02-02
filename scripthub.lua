@@ -1,6 +1,5 @@
 local ArrayField = loadstring(game:HttpGet('https://raw.githubusercontent.com/UI-Interface/ArrayField/main/Source.lua'))()
 
-
 local Window = ArrayField:CreateWindow({
    Name = "its scripthub, enjoy!",
    LoadingTitle = "cool scripthub",
