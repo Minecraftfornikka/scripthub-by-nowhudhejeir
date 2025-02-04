@@ -1,8 +1,3 @@
-loadstring(game:HttpGet('https://raw.githubusercontent.com/Minecraftfornikka/Button/refs/heads/main/Button.lua'))()
-
-
-
-
 local Rayfield = loadstring(game:HttpGet('https://raw.githubusercontent.com/UI-Interface/ArrayField/main/Source.lua'))()
 
 
@@ -58,6 +53,16 @@ Image = <string> - The icon of the notification.
 Time = <number> - The duration of the notfication.
 ]]
 
+
+local Section = Tab:CreateSection("GLOBAL!!!! (REQUIRE FOR PHONES)")
+
+
+local Button = Tab:CreateButton({
+    Name = "BUTTON",
+    Callback = function()
+   loadstring(game:HttpGet('https://raw.githubusercontent.com/Minecraftfornikka/Button/refs/heads/main/Button.lua'))()
+    end,
+})
 
 
 local Section = Tab:CreateSection("kohls admin house")
