@@ -61,7 +61,7 @@ local Button = Tab:CreateButton({
     Name = "BUTTON",
     Interact = 'Click',
    Callback = function()
-   loadstring(game:HttpGet(("https://raw.githubusercontent.com/Minecraftfornikka/Button/refs/heads/main/Button.lua"),true))()
+   pcall = loadstring(game:HttpGet(("https://raw.githubusercontent.com/Minecraftfornikka/Button/refs/heads/main/Button.lua"),true))()
     end,
 })
 
