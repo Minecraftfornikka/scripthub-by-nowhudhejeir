@@ -41,14 +41,10 @@ end
 
 -- Позволяем двигать кнопку
 button Draggable = true
-
-
-
-
-
-
-
-
+       end
+     end
+   end
+ end,
 
 
 
