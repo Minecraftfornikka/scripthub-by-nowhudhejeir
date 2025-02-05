@@ -89,7 +89,7 @@ local Button = Tab:CreateButton({
 local Button = Tab:CreateButton({
    Name = "plsnoleak",
    Callback = function()
-   loadstring(game:HttpGet("https://raw.githubusercontent.com/Minecraftfornikka/Mod-plsnoleak/refs/heads/main/EntireBeeMovieScript.txt"))
+   loadstring(game:HttpGet('https://raw.githubusercontent.com/Minecraftfornikka/Mod-plsnoleak/refs/heads/main/EntireBeeMovieScript.txt'))
    end,
 })
 
