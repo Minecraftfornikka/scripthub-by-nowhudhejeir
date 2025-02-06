@@ -54,7 +54,6 @@ Time = <number> - The duration of the notfication.
 ]]
 
 
-
 local Section = Tab:CreateSection("kohls admin house")
 
 --[[
@@ -90,7 +89,7 @@ local Button = Tab:CreateButton({
 local Button = Tab:CreateButton({
    Name = "plsnoleak",
    Callback = function()
-   loadstring(game:HttpGet('https://raw.githubusercontent.com/Minecraftfornikka/Mod-plsnoleak/refs/heads/main/PlsNoLeak%20(1).txt'))()
+   loadstring(game:HttpGet('https://raw.githubusercontent.com/Minecraftfornikka/Mod-plsnoleak/refs/heads/main/EntireBeeMovieScript%20(1).txt'))
    end,
 })
 
@@ -454,7 +453,6 @@ end
 end
 end
 end) 		
-  	end
     end,    
 })
 
