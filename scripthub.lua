@@ -224,7 +224,6 @@ local UnloadPlayer = function(v)
 	local vHolder = Holder:FindFirstChild(v.Name)
 	if vHolder then
 		vHolder:Destroy()
-	end
 end
 
 for i,v in pairs(game:GetService("Players"):GetPlayers()) do
@@ -618,7 +617,7 @@ local Button = Tab:CreateButton({
 })
 
 
-local Tab = Window:CreateTab("breaking point", 4483362458) -- Title, Image
+local Tab = Window:CreateTab("muscle simulator", 4483362458) -- Title, Image
 
 
 local Button = Tab:CreateButton({
