@@ -354,6 +354,22 @@ local Button = Tab:CreateButton({
 
 
 local Button = Tab:CreateButton({
+   Name = "python v3",
+   Callback = function()
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/TheGodE6/Solar/refs/heads/main/Python%20V3.lua"))()
+   end,
+})
+
+
+local Button = Tab:CreateButton({
+   Name = "radion hub",
+   Callback = function()
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/TheGodE6/Solar/e747705007bf4d3eeb1e28fd0348996f9a6605ab/Radiation%20Hub%20but%20good.lua"))()
+   end,
+})
+
+
+local Button = Tab:CreateButton({
    Name = "sc3-var (private script)",
    Callback = function()
    loadstring(game:HttpGet("https://raw.githubusercontent.com/Minecraftfornikka/Sc3-var/refs/heads/main/Sc3-var"))()
