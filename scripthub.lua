@@ -346,6 +346,14 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/WebsMoment/Azor.lua/
 
 
 local Button = Tab:CreateButton({
+   Name = "cool-guy script",
+   Callback = function()
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/coolguy1090/coolguy1090-project/refs/heads/main/coolguy.lua"))()
+   end,
+})
+
+
+local Button = Tab:CreateButton({
    Name = "sc3-var (private script)",
    Callback = function()
    loadstring(game:HttpGet("https://raw.githubusercontent.com/Minecraftfornikka/Sc3-var/refs/heads/main/Sc3-var"))()
